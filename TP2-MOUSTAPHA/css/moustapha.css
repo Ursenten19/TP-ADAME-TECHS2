@@ -1,0 +1,302 @@
+
+/* ==========================================================================
+   Global custom styles starts here
+   ========================================================================== */
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'fjalla_oneregular';
+    src: url('../fonts/fjallaone-regular-webfont.eot');
+    src: url('../fonts/fjallaone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fjallaone-regular-webfont.woff') format('woff'),
+         url('../fonts/fjallaone-regular-webfont.ttf') format('truetype'),
+         url('../fonts/fjallaone-regular-webfont.svg#fjalla_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'oxygenregular';
+    src: url('../fonts/oxygen-regular-webfont.eot');
+    src: url('../fonts/oxygen-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-regular-webfont.woff') format('woff'),
+         url('../fonts/oxygen-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-regular-webfont.svg#oxygenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.header-wrapper
+{ 
+background: url(../img/body-bg.jpg) repeat;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.site-header
+{
+background: #383838;
+    margin-top: 60px;
+    display: block;	
+}
+.container
+{
+	    width: 1170px;
+	margin-right: auto;
+    margin-left: auto;
+}
+.site-name h1
+{
+	margin-top: -10px;
+    position: absolute;
+background: #f85c5e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+	    font-size: 38.5px;
+	}
+nav
+{
+	position: relative;
+display: inline-block;
+width: 740px;
+text-align: right;
+padding-left:430px;
+}
+nav ul
+{
+list-style-type: none;
+}
+nav li
+{
+display: inline-block;
+margin-right: 15px;
+}
+nav a
+{
+font-size: 1.3em;
+color: #fff;
+padding-bottom: 3px;
+text-decoration: none;
+text-transform: uppercase;
+}
+nav a:hover
+{
+    color: #f85c5e;
+border-bottom: 3px solid #760001;
+}
+.banniere-image
+{
+	position: relative;
+text-align: center;
+    margin-top: 55px;
+	margin-left:auto;
+	margin-right: auto;
+    border-radius: 5px;
+    border: 20px solid #fff;
+    border-bottom: none;
+    margin-bottom: -4px;
+	width: 1130px;
+}
+.text-sur-image h1
+{
+color: #fff;
+font-size:64px;
+padding-bottom: 1px;
+text-transform:uppercase;
+font-weight: normal;
+}
+h2
+{
+color: #fff;
+ font-size: 22px;
+ line-height: -0px;
+ font-weight: normal;
+  padding-bottom: 15px;	
+  
+}
+.text-sur-image h1, h2
+{
+	display: block;
+position: relative;
+opacity: 1;	
+top: -300px;
+text-align: center;
+}
+.bouton
+{
+	position: relative;
+border-radius: 5px;
+ border: 3px solid #fff;
+ background: none; 
+ color: #fff;
+ font-size: 18px;
+ box-shadow: none;
+ text-shadow: none;
+ padding: 10px;
+ line-height: 16px;
+ text-transform: uppercase;
+ letter-spacing: 1px;	
+ bottom: 300px;
+}
+/*pour la section du block horizontal*/
+.block-central
+{
+	position:relative;
+   background: #fff;
+   
+   margin-bottom: 1px;
+margin-top: -230px;  
+opacity:0.95; 
+}
+.block-horizontal
+{
+ margin-left:150px;
+ display: inline;
+    float: none;
+    width: 100%;
+	box-sizing: border-box;
+	min-height: 30px;
+}
+.block-divise
+{
+		display: inline-block;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 35px;
+    	}
+.block-non-divise
+{
+text-align: center;
+ padding-top: 25px;
+ padding-bottom: 35px;	
+}
+.icon1::before , .icon2::before, .icon3::before, .icon4::before
+{
+font-size: 65px;
+    color: #747474;
+display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    margin-top: 0;
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+content: "\f025";
+display: inline-block;
+    speak: none;	
+}
+.titre-rectangle
+{
+	color: #f85c5e;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: normal;
+}
+p
+{
+color: #979797;
+    font-size: 13px;
+    line-height: 22px;
+    font-family: 'oxygenregular';
+    text-decoration: underline;	
+}
+.cadre-des-photos
+{
+overflow: hidden;
+ margin-bottom: 25px;
+display:block; 
+}
+.info-utilisateur
+{
+padding:25px 15px 0 15px;
+ border-radius: 5px 5px 0 0;
+ background: #fff;	
+ width: 100%;
+}
+.les-mots 
+{
+	color: #747474;
+	font-size: 17px;
+	line-height: 24px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+	font-weight: normal;
+	display: block;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+body
+{
+    background-image: url("img/body-bg.jpg");
+}
+
+#container
+{
+    position: relative;
+    border: 1px white solid;
+}
+
+#menu li
+{
+    
+    display: inline;
+}

@@ -1,0 +1,77 @@
+body{
+    font-family: "Helvatica neue" ,Helvetica ,Arial ,sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+}
+
+.header-wrapper{
+    background: url(body-bg.jpg) repeat;
+    overflow: hidden;
+    margin: 0 auto;
+    border: solid red;
+}
+
+.site-header {
+    background: #383838;
+    margin-top: 60px;
+}
+
+.site-name{
+    position: absolute;
+    margin-top:-10px;
+}
+.site-name h1{
+    background: #f85c5e;
+    color: #fff;
+    border: solid red;
+    padding: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.banner{
+    text-align: center;
+    margin-top: 55px;
+    border-radius: 5px;
+    border: 20px solid #fff;
+    border-bottom: none;
+    margin-bottom: -4px;
+}
+
+.featured-blocks {
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 60px;
+}
+
+.span3{
+    float: left;
+}
+
+.span9{
+    border: solid red;
+}
+
+.span4{
+    border: solid red;
+}
+
+.span3{
+    border: solid red;
+}
+
+.container{
+    border: solid red;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-wrapper{
+    border: solid red;
+    background:url(body-bg.jpg) repeat;
+    overflow: hidden;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 65px;
+    font-family: "Helvatica neue" ,Helvetica ,Arial ,sans-serif;
+}

@@ -1,0 +1,354 @@
+@font-face {
+    font-family: 'fjalla_oneregular';
+    src: url('../fonts/FjallaOne-Regular.otf');
+    src: url('../fonts/FjallaOne-Regular.otf') format('opentype');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeueLTStd Lt.otf');
+    src: url('../fonts/HelveticaNeueLTStd Lt.otf') format('opentype');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	background : url("../img/body-bg.jpg");
+	font-family: 'fjalla_oneregular';
+	width: 100%;
+	margin-left : 0%;
+}
+
+#header
+{
+	background-color : rgb(56,56,56);
+	position: relative;
+	width: 100%;
+	height : 7%;
+	top: 6%;
+}
+#header #sitename
+{
+	color : white;
+	font-size : 40px;
+	background-color : #f85c5e;
+	text-align : center;
+	padding-top : 1.2%;
+	height:110%;
+	width : 15%;
+	position : relative;
+	left : 3%;
+	top : -20%;
+	border-radius : 5px;
+	float : left;
+}
+#navigation
+{
+	position : relative;
+	left : 47%;
+	top : 35%
+}
+#navigation li
+{
+	display : inline;
+	font-size: 14px;
+	padding : 20px;
+	padding-right : 20px;
+	padding-left : 20px;
+	position : relative;
+	bottom : 20px;
+	right : 5px;
+	float: left;
+	color : white;
+	border:1px rgb(45,45,45) solid;
+}
+#navigation li:hover
+{
+	background-color : black;
+	color : #f85c5e;
+}
+
+#banner
+{
+	background-color : #ffffff;
+	width : 94%;
+	height: 60%;
+	position: relative;
+	top:12%;
+	left: 3%;
+	border-radius: 6px;
+}
+#banner img
+{
+	position: absolute;
+	right : 2%;
+	top:4%;
+}
+#text-img
+{
+	text-align : center;
+	position : relative;
+	color : white;
+	font-size : 30px;
+	top : 150px;
+	height : 50%;
+}
+
+
+#lien-img
+{
+	border : 3px white solid;
+	width : 16%;
+	padding-top : 1%;
+	margin-left: 42%;
+	height : 14%;
+	font-size : 20px;
+}
+#section
+{
+	background-color : rgba(255,255,255,0.9);
+	width : 100%;
+	height : 200%;
+	position: relative;
+	top: 2%;
+	font-family :'HelveticaNeue'; 
+}
+.onglet
+{
+	text-align: center;
+	width : 24%;
+	height : 25%;
+	
+}
+.onglet, .onglet-barre
+{
+	float : left;
+}
+
+#onglets
+{
+		background-color:white;
+		position: relative;
+		left : 3%;
+		height : 12%;
+		width : 94%;
+}
+#carre
+{
+	width : 10%;
+	height : 70%;
+	border : 1px black solid;
+	margin-top : 15%;
+	margin-bottom : 13%;
+}
+.red
+{
+	color: #f85c5e;
+}
+
+article
+{
+	clear : both;
+	margin-top : 5%;
+	margin-bottom : 5%;
+	margin : 3%;
+	height : 70%;
+	width : 70%;
+	float : left;
+}
+
+#article a
+{
+	text-decoration: none;
+	font-size:20px;
+	color:#f85c5e;
+}
+
+#element
+{
+	
+	width : 29%;
+	background-color : white;
+	border-radius : 5px;
+	position : relative;
+	top : 1.5%;
+	float : left;
+	margin-right : 3%;
+	margin-bottom : 3%;
+	display: block;
+}
+
+#element p 
+{
+	font-size:14px;
+	padding-top : 5%;
+	margin-left : 5%;
+	margin-right : 2%;
+	font-weight : bold;
+}
+#element img
+{
+	width : 95%;
+	padding-right : 5%;
+	
+}
+#readmore
+{
+	
+	background-color : #f85c5e;
+	height : 2%;
+	padding-top : 7%;
+	margin-left : 0px;
+	width : 100%;
+	color : white;
+}
+#readmore:hover
+{
+	color : black;
+}
+
+#element td
+{
+	padding-bottom : 10%;
+}
+
+#footer
+{
+	clear : both;
+}
+
+#article_search
+{
+	position: relative;
+	top : 3.5%;
+	width : 22%;
+	
+	float : right;
+	right : 6%;
+
+}
+
+#search , #lien , #example
+{
+	background-color : white;
+	padding-top : 2%;
+	padding-left : 2%;
+	margin-bottom : 10%;
+}
+
+#search
+{
+	height : 5%;
+}
+
+#lien li
+{
+	border-bottom : 1px #f0f0f0 solid;
+	list-style : url("../img/list-arrow.png");
+	padding-bottom : 20px;
+	margin-top : 20px;
+	
+}
+
+#lien li a
+{
+	text-decoration : none;
+}
+
+#example #bottom-border , #example #no-border
+{
+	padding-bottom : 20px;
+	margin-top : 20px;
+}
+
+#example #bottom-border
+{
+	border-bottom : 1px #f0f0f0 solid;
+}
+
+#bottom-border p , #no-border p
+{
+	text-decoration : underline;
+}
+
+#ext,#int
+{
+	border :1px black solid;
+	position : relative;
+}
+
+#ext
+{
+	clear : both;
+	width : 20%;
+	height : 3%;
+	float : left;
+	margin : 15;
+}
+
+#int
+{
+	width : 33%;
+	height : 33%;
+	top : 33%;
+	left : 33%;
+}
+
+#info-sup, #info-sup-no-border
+{
+	
+	
+	color : #aaaaaa;
+	height : 15%
+}
+
+#info-sup
+{
+	margin-top : 25px;
+	border-bottom : 1px #444444  solid;
+	font-family : 'open_sansbold';
+}
+
+#contact , #contact-lien
+{
+	text-align : center;
+	width : 23%;
+	position : relative;
+	top : 33%;
+	display : inline-block;
+	float : left;
+}
+#contact a
+{
+	color : #aaaaaa;
+	text-decoration : none;
+}
+
+#info-sup-no-border #contact a
+{
+	color : #444444;
+	font-size : 40px;
+	margin-right : 15px;
+}
+#info-sup-no-border #contact a:hover
+{
+	color : #ffffff;
+}
+
+#contact-lien li
+{
+	display : inline;
+}
+
+#contact-lien li a
+{
+	color : red;
+	
+}
